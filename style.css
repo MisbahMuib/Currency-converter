@@ -1,0 +1,75 @@
+html{
+    height: 100%;
+  }
+  body{
+    text-align: center;
+    font-family: Helvetica;
+  }
+  button{
+    color: #fff;
+    background-color: #1cbbbb;
+    border: 1px solid #1cbbbb;
+    border-radius: 4px;
+    width: 5em;
+    height: 2.7em;
+    padding: 5px auto;
+    margin-top: 2em;
+    font-weight: bold;
+    transition: 1s ease-in-out;
+    letter-spacing: 1px;
+  }
+  button:hover{
+    background-color: teal;
+    border: 1px solid teal;
+    cursor: pointer;
+    letter-spacing: 2px;
+  }
+  input{
+    background-color: #eee;
+    width: 60%;
+    height: 2em;
+    font-weight: bold;
+    border: 2px solid #1cbbbb;
+    text-align: center;
+  }
+  #boxes:after{
+    content: "";
+    display:  grid;
+    clear: both;
+  }
+  #boxes{
+    margin: 3em .5em auto;
+  }
+  .box{
+    width: 40%;
+    background-color: #1cbbbb;
+    height: 7em;
+    border-radius: 4px;
+    padding-bottom: .2em;
+  }
+  .inpBox{
+    float: left;
+  }
+  .outBox{
+    float: right;
+  }
+  .content{
+    padding: 2em 0;
+    color: #fff;
+  }
+  .labe{
+    background-color: teal;
+    border-radius: 4px 4px 0px 0px;
+    padding-top: 6px;
+    color: #fff;
+  }
+  .currCon h2{
+    color: #1cbbbb;
+    margin-top: 3em;
+    padding: auto 2px;
+    border-top: 4px solid teal;
+    border-bottom: 4px solid teal;
+    width: 60%;
+    margin-left: 20%;
+  }
+  
